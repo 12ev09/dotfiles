@@ -15,6 +15,7 @@ brew upgrade --all
 
 formulas=(
     git
+    starship
     wget
     curl
     tree
@@ -66,6 +67,7 @@ done
 casks=(
     google-chrome
     google-japanese-ime
+    font-hack-nerd-font
     slack
     visual-studio-code
     iterm2

@@ -1,0 +1,29 @@
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+
+[package]
+style = "bold yellow"
+
+[golang]
+symbol = "😀"
+version_format = "v${raw}"
+
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+up_to_date = "✓"
+untracked = "🤷"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
+
+[memory_usage]
+disabled = false
+threshold = -1
+symbol = " "
+style = "bold dimmed green"
