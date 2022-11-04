@@ -16,6 +16,7 @@ brew upgrade --all
 formulas=(
     git
     starship
+    exa
     wget
     curl
     tree
