@@ -1,9 +1,12 @@
-# env
+#ienv
 export LANG=ja_JP.UTF-8
 export LS_COLORS='di=33:ex=31:fi=35'
 export PATH="/$HOME/local/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 
 # alias
 alias vz='vim ~/.zshrc'
@@ -41,5 +44,8 @@ alias gdc='git diff --cached'
 # plugins
 source ~/.zinitrc
 
+# ----------------- autoloads -----------------
+autoload -Uz _zinit
+zpcompinit
+
 eval "$(pyenv init -)"
-eval "$(starship init zsh)"
